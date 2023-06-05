@@ -105,3 +105,5 @@ JsonBasket = JSON.stringify(basket);
 localStorage.setItem("basket", JsonBasket);
 
 }
+
+

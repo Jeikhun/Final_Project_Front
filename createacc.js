@@ -9,7 +9,7 @@ const REGEX_Pass  = /^(?=.*[0-9])(?=.*[!@#$%^&*])[a-zA-Z0-9!@#$%^&*]{6,16}$/;
 let jTargetValue;
 email.addEventListener("keyup", (e)=>{
     if(REGEX_Mail.test(e.target.value)){
-    emailText.textContent = "Correct";
+    emailText.textContent = "Correct"
     emailText.style.color = "green"
 }
 else{
