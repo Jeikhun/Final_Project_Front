@@ -18,6 +18,9 @@ burgerMenu.addEventListener("click", (e)=>{
 
 })
 
+emailText.addEventListener("keyup", (e)=>{
+    emailText.style.color = "black"
+})
 
 email.addEventListener("click", (e)=>{
     if(REGEX_Mail.test(emailText.value)){
